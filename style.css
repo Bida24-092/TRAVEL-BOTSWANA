@@ -350,3 +350,27 @@ ul {
                 background-color: #0a9396;
 
                }
+#backToTop {
+
+            display: none;
+            position:fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: black;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 50%
+            font-size: 18px;
+            cursor: poiner;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba (0,0,0,0.3);
+            transition: background-color 0.3s ease;
+
+            }
+
+#backToTop:hover {
+
+                  background-color: #444;
+
+                 }
